@@ -1,0 +1,3 @@
+lex exp5.l
+cc lex.yy.c -o -ll
+./a.out

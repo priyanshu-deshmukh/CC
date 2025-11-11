@@ -1,0 +1,4 @@
+sudo apt install gcc bison flex
+gcc --version
+bison --version
+flex --version
