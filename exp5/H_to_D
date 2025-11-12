@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int n;
+    scanf("%x", &n);
+  
+    printf("%d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main()
+{
+    int decimalNumber = 45;
+  
+    printf("Hexadecimal number is: %X", decimalNumber);
+    return 0;
+}
