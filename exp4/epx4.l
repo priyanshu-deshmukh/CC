@@ -7,7 +7,7 @@ char c;
 %%
 [a-z] {c = yytext[0] - 32; putchar(c);}
 [A-Z] {c = yytext[0] + 32; putchar(c);}
-.\n   {c = yytext[0] putchar(c);}
+.\n   {c = yytext[0]; putchar(c);}
 %%
 
 int main() {
